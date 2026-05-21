@@ -22,5 +22,14 @@ To create a smooth interpolation of the focal point's movement, we use a smoothi
 
 Finally, we apply this technique to all dimensions and utilize Minecraft's "facing" command to handle rotation.
 
-#### Conclusion
-Download the datapack and check out the code for yourself. There is a DEMO already set up for you to look at.
+#### How to use
+* Download the Datapack
+* Modify "data/gd/scenes/test_scene/camera_info" to reflect your cutscene.
+* Add or remove segment blocks and change camera position and time variables to reflect your cutscene.
+* <img width="937" height="628" alt="csdp_03" src="https://github.com/user-attachments/assets/e09eaf61-f92d-4a08-8c74-a2aaaa0ed0c2" />
+* The file "data/gd/scenes/test_scene/audio_info" is used if you want to add any other effects while the cutscene is active.
+*  To start the cutscene type, "/function gd:scenes/test_scene/start"
+* To add another cutscene, make sure to declare it in "data/gd/loaders/cutscene" under the line "execute if score timer cutscene matches 0 if score scene dialogue matches 1 run function gd:scenes/test_scene/camera_info"
+* Additionally, make sure you change the start function to reflect the scene number you chose above.
+
+
