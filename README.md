@@ -9,7 +9,7 @@ Create smooth, complex cutscenes in Minecraft with ease!
 * Smooth Focal Point interpolation
 * Indefinitely long cutscenes
 * Utilizes Minecraft's spectator mode
-* Can swap out the Camera entity with a mob for Core Shaders effects (Creeper, etc.)
+* Can swap out the Camera entity with a mob for Core Shader effects (Creeper, etc.)
 
 #### Requirements
 * Datapack
