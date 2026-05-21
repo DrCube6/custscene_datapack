@@ -1,4 +1,5 @@
 # Minecraft Cutscene Datapack
 Create smooth, complex cutscenes in Minecraft with ease!
 
-(https://github.com/DrCube6/custscene_datapack/blob/main/example_video.mp4)
+<img width="400" height="225" alt="csdp_example" src="https://github.com/user-attachments/assets/ea0cd137-555c-40fc-8cbd-d916641e1477" />
+
