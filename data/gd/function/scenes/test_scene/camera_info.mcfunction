@@ -12,6 +12,7 @@ execute if score segment cutscene matches 1 run scoreboard players set fp_timer 
 execute if score segment cutscene matches 1 run scoreboard players operation #fp_tot_time cutscene = fp_timer cutscene
 execute if score segment cutscene matches 1 run return 0
 
+#cam pos 2
 execute if score segment cutscene matches 2 run tp @e[tag=camera] -3 56 5
 execute if score segment cutscene matches 2 run tp @e[tag=camera_destination] -3 56 11
 execute if score segment cutscene matches 2 run tp @e[tag=focal_point] -3 56 14

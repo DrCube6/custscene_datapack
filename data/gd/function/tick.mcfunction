@@ -1,6 +1,6 @@
 #loader control
 execute if score start_scene gd matches 1 run function gd:loaders/dialogue
-execute if score start_cutscene gd matches 1 run function gd:loaders/camera
+execute if score start_cutscene gd matches 1 run function gd:loaders/cutscene
 
 #debug
 execute if score debug gd matches 0 run scoreboard objectives setdisplay sidebar
